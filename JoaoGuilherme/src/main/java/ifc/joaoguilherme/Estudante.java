@@ -34,9 +34,4 @@ return nome;
 public void setNome(String _nome){
     nome = _nome;
 }
-public int getcpf() {
-    int cpf = 0;
-    
-    return cpf;
-}
 }
