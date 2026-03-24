@@ -13,7 +13,7 @@ public class Estudante {
 
     private String nivel;
     private String nome;
-    private Date DadadNascimento;
+    private Date dataDnascimento;
     private String cpf;
     private String genero;
     private int telefone;
@@ -43,12 +43,13 @@ public class Estudante {
         nome = _nome;
     }
 
-    public int obterIdade(Date hoje) {
-        int idade = 0;
-
-        return idade;
+    public Date getdataDnascimento() {
+        return dataDnascimento;
     }
-
+    
+    public void setdataDnascimento(Date _dataDnascimento) {
+        dataDnascimento = _dataDnascimento;
+    }
     public String obterGerero(String _genero) {
 
         String gerero = " ";
